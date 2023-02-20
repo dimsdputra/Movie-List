@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFillStarFill, BsPlusLg } from "react-icons/bs";
+import { BsFillStarFill } from "react-icons/bs";
 
 const Card = (props) => {
   return (

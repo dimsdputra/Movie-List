@@ -42,11 +42,11 @@ function App() {
 
   return (
     <>
-      <div className="flex items-center bg-zinc-300 px-10">
-        <h1 className="text-zinc-700 font-bold text-4xl text-center font-sans">
-          Movie List
-        </h1>
-        <Search search={search} />
+      <div className="flex justify-between items-center bg-zinc-300 px-10">
+          <h1 className="text-zinc-700 font-bold text-xl sm:text-4xl text-center font-sans">
+            Movie List
+          </h1>
+          <Search search={search} />
       </div>
       <div className="w-full h-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 box-border px-10 py-10 ">
         <PopularMovieList />
